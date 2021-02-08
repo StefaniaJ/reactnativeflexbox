@@ -4,9 +4,56 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{padding: 25}}>
+      <View style= {{
+        backgroundColor: 'yellow',
+        height: 75,
+        width: 75,
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <Text>Hi</Text>
+      </View>
+
+      <View style= {{
+        backgroundColor: 'blue',
+        height: 75,
+        width: 75,
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <Text>I</Text>
+      </View>
+
+      <View style= {{
+        backgroundColor: 'green',
+        height: 75,
+        width: 75,
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <Text>am</Text>
+      </View>
+
+      <View style= {{
+        backgroundColor: 'brown',
+        height: 75,
+        width: 75,
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <Text>Flex</Text>
+      </View>
+
+      <View style= {{
+        backgroundColor: 'purple',
+        height: 75,
+        width: 75,
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <Text>Box</Text>
+      </View>
     </View>
   );
 }
