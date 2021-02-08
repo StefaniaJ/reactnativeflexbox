@@ -4,11 +4,11 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={{padding: 25}}>
+                                /* 1 and 2 */                               /* 3          5 */
+    <View style={{padding: 25, flexDirection: 'row', alignItems: 'center', height: 300, alignItems: 'stretch' }}>
       <View style= {{
         backgroundColor: 'yellow',
-        height: 75,
-        width: 75,
+        flex: 1, /* 3*/
         justifyContent: 'center',
         alignItems: 'center'
       }}>
@@ -17,8 +17,7 @@ export default function App() {
 
       <View style= {{
         backgroundColor: 'blue',
-        height: 75,
-        width: 75,
+        flex: 1, /* 4 */
         justifyContent: 'center',
         alignItems: 'center'
       }}>
@@ -27,8 +26,7 @@ export default function App() {
 
       <View style= {{
         backgroundColor: 'green',
-        height: 75,
-        width: 75,
+        flex: 1, /* 4 */
         justifyContent: 'center',
         alignItems: 'center'
       }}>
@@ -37,8 +35,7 @@ export default function App() {
 
       <View style= {{
         backgroundColor: 'brown',
-        height: 75,
-        width: 75,
+        flex: 1, /* 4 */
         justifyContent: 'center',
         alignItems: 'center'
       }}>
@@ -47,8 +44,7 @@ export default function App() {
 
       <View style= {{
         backgroundColor: 'purple',
-        height: 75,
-        width: 75,
+        flex: 2, /* 4 */
         justifyContent: 'center',
         alignItems: 'center'
       }}>
